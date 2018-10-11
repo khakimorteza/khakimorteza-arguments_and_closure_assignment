@@ -67,49 +67,47 @@
 // console.log(concatAndRemoveDupes([1, 2, 3], [2, 3, 4, 5]));
 
 
+ //4.
+
+
+//
+// const sort = arr => arr.sort((a,b) => a - b);
+//
+// const middleElement = (arr) => {
+//   let mid = Math.floor(arr.length / 2)
+//   return (arr.length% 2) ? (arr[mid]) : ((arr[mid]+ arr[mid-1])/2)
+// }
+//
+// const median = grades => middleElement(sort(grades));
+// console.log(median([91, 85, 100, 92, 88]));
+
+
+
 
 
 //5
 //
 // const repeat = (str, numtimes = 2) => {
 //   for (let i = 0; i <= numtimes; i++) {
-//     array[i]
+// repeat ("a", 3)
 //   }
 // }
 
+//6.
+
+// const getSum = (...args) => {
+//   let sum = 0;
+//   for (let i = 0; i < args.length; i++) {
+//   sum += args[i]
+//   }
+//   return sum;
+// }
+//
+// console.log(getSum(1,2,3));
 
 //7.
 
 //
 // const adder = (...arg) => arg[0] += arg[1]
-//   let add5 = a => adder(a, 5)
-//
-//
-
-
-
- //4.
-//  let grades = [91, 85, 100, 92, 88]
-//
-// function sort(arr) {
-//   arr.sort(function(a,b)){
-//     return a - b
-//   }
-//
-// }
-
-const sort = arr => arr.sort((a,b) => a - b);
-
-const middleElement = (arr) => {
-  let mid = Math.floor(arr.length / 2)
-  return (arr.length% 2) ? (arr[mid]) : ((arr[mid]+ arr[mid-1])/2)
-}
-
-const median = grades => middleElement(sort(grades));
-console.log(median([91, 85, 100, 92, 88]));
-
-
-
-// cost greeting = (...args) => {
-//   return `Hello`;
-// }
+// const add5 = a => adder (a, 5)
+// const add9 = a => adder (a, 9)
