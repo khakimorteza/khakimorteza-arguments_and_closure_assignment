@@ -111,3 +111,5 @@
 // const adder = (...arg) => arg[0] += arg[1]
 // const add5 = a => adder (a, 5)
 // const add9 = a => adder (a, 9)
+
+//
